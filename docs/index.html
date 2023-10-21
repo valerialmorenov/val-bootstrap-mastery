@@ -8,8 +8,61 @@
 </head>
 
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carousel.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mt-0 p-5 bg-primary mw-100 mh-100 text-white text-center" id="jumbotron">
+    <h1>Ship's Log</h1>
+    <p>A diary by Capt. Crit 'Red Beard' McGillicutty</p>
+  </div>
+
+  <div class="container">
+    <h2>Thar be monsters in the sea</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="card">
+        <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Name this Kraken!</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ad, deleniti accusantium asperiores quos eaque sed itaque saepe natus magnam hic veniam cupiditate eius, ipsum ducimus! Consequatur quos adipisci eius?</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Name this Kraken!</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta excepturi corporis doloribus perferendis et iste accusantium cumque, ipsum cum deleniti modi nisi consequuntur aspernatur harum tempora obcaecati aperiam asperiores nemo!</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Name this Kraken!</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nesciunt rerum omnis deserunt facilis debitis doloribus id? Ipsam quasi id laborum totam, obcaecati saepe quibusdam quam iure, consequuntur ducimus eum..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer><p class="bg-dark text-white text-center m-3 p-1">By Valeria Moreno</p></footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.min.js"></script>
